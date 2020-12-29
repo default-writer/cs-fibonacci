@@ -13,7 +13,7 @@ class MyEnumerator: IEnumerator<int> {
     public bool MoveNext()
     {
         if (f1 + f2 < number) {
-            int tmp = f2;
+            int tmp = f1;
             f1 = f1 + f2;
             f2 = tmp;
             return true;
